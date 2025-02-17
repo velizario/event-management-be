@@ -1,0 +1,40 @@
+{
+  "name": "event-platform-backend",
+  "version": "1.0.0",
+  "description": "NestJS + Prisma Backend for Events MVP",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/mapped-types": "^2.1.0",
+    "@nestjs/passport": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@prisma/client": "^4.16.2",
+    "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "dotenv": "^16.0.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "prisma": "^4.13.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.5.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/node": "^18.0.0",
+    "@types/passport-jwt": "^3.0.7",
+    "prisma": "^4.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
