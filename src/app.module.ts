@@ -10,8 +10,8 @@ import { BookingsModule } from './bookings/bookings.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    AuthModule,
-    UsersModule,
+    AuthModule, 
+    UsersModule, 
     EventsModule,
     BookingsModule,
   ],
